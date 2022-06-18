@@ -72,6 +72,25 @@ const { title, description, author, permalink } = content;
 		--theme-code-bg: var(--color-gray-900);
 	}
 
+	@font-face {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		src:
+			url('../../../public/assets/fonts/inter/inter-v11-latin-regular.woff2') format('woff2'),
+			url('../../../public/assets/fonts/inter/inter-v11-latin-regular.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		src:
+			url('../../../public/assets/fonts/inter/inter-v11-latin-600.woff2') format('woff2'),
+			url('../../../public/assets/fonts/inter/inter-v11-latin-600.woff') format('woff');
+	}
+
+
 	::selection {
 		color: var(--theme-accent);
 		background-color: rgba(var(--theme-accent-rgb), var(--theme-accent-opacity));

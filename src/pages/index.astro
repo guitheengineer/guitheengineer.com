@@ -1,0 +1,34 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import BlogPostPreview from '../components/BlogPostPreview.astro';
+import Body from '../components/Body.astro';
+
+let title = "Guilhermefront's blog";
+let description = 'A front end blog';
+let permalink = 'https://www.guilhermefront.com';
+
+let allPosts = await Astro.glob('./posts/*.md');
+allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
+
+---
+
+<html lang="en">
+
+<head>
+  <BaseHead {title} {description} {permalink} />
+</head>
+
+<Body>
+  <Header />
+
+  <main class="mt-16 mb-32">
+    <section aria-label="Blog post list">
+      {allPosts.map((p) =>
+      <BlogPostPreview post={p} />)}
+    </section>
+  </main>
+
+</Body>
+
+</html>

@@ -30,12 +30,15 @@ Looks great, don't it? But it's been [7 years since it was proposed](https://git
 
 ## The reason
 
-Most of the suggestions don't go forward because of mostly two points:
+These improvements doesn't go forward because of mostly three points:
+<div class="mb-2" />
+1. They still have a bunch of [unanswered questions](https://github.com/facebook/jsx/issues/119#issuecomment-501935701).
 
-1. They still have a bunch of unanswered questions
-One of the biggest strengths of JSX is it's stability (link to sebmarkbage about JSX biggest strength), as it's used through several projects
-https://github.com/facebook/jsx/issues/119#issuecomment-501935701
+2. "One of the biggest strengths of JSX is it's stability, as it's used through several projects." - [Sebastian Marbkage](https://github.com/facebook/jsx/issues/119#issuecomment-501888248)
 
-2. Any changes to JSX are a lot of work for everyone involved to push through because they need to be coordinated with many partner projects, including Babel, ESLint, Prettier, TypeScript, Flow, IDEs and syntax highlighters, and so on. This doesn’t mean it’s insurmountable, but just that the bar for adding something to the JSX grammar is very high. (from Dan Abramov's comment https://github.com/reactjs/rfcs/issues/155#issuecomment-620303147)
 
-So will JSX ever get an update? Probably not, unless a working group with members of all these projects come together to vastly discuss and start pushing these improvements.``
+3. "Any changes to JSX are a lot of work for everyone involved to push through because they need to be coordinated with many partner projects, including Babel, ESLint, Prettier, TypeScript, Flow, IDEs and syntax highlighters, and so on. This doesn’t mean it’s insurmountable, but just that the bar for adding something to the JSX grammar is very high." - [Dan Abramov](https://github.com/reactjs/rfcs/issues/155#issuecomment-620303147)
+
+
+## Conclusion
+With all of this said by important core react team members, the question "will JSX ever get an update" is clearly answered... **Probably not**, unless a working group with members of all these projects come together to vastly discuss and start pushing these improvements, which is something difficult to do when this isn't a priority for them.

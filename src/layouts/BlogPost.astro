@@ -26,7 +26,7 @@ const { title, description, author, permalink } = content;
 
 </html>
 
-<style is:global>
+<style lang="scss" is:global>
 	:root {
 		--color-white: #fff;
 		--color-black: #000014;
@@ -88,6 +88,32 @@ const { title, description, author, permalink } = content;
 		font-display: swap;
 		src:
 			url('../../../public/assets/fonts/inter/inter-v11-latin-600.woff') format('woff');
+	}
+
+	ol {
+		counter-reset: points;
+
+		li {
+			margin: theme('spacing.3') 0;
+			position: relative;
+			padding-left: theme('spacing.5');
+
+			@media (min-width: 800px) {
+				padding-left: theme('spacing.0');
+			}
+
+			&::before {
+				counter-increment: points;
+				content: counter(points)'.';
+				margin-right: theme('spacing.2');
+				position: absolute;
+				left: theme('spacing.0');
+
+				@media (min-width: 800px) {
+					left: calc(theme('spacing.5') * -1);
+				}
+			}
+		}
 	}
 
 

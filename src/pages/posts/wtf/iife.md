@@ -1,24 +1,27 @@
 ---
 setup: |
-  import Layout from '../../layouts/BlogPost.astro'
-title: Will JSX ever get an update?
+  import Layout from '../../../layouts/BlogPost.astro'
+title: WTF is an IIFE?
 publishDate: 17 Jun 2022
 name: Guilherme Samuel
 value: 128
-description: A quick look into why JSX hasn't been improved in the last years.
-keywords: ['react', 'jsx']
+description: Some cool stuff that doesn't make a difference.
+draft: true
 ---
 
-Over the years several improvements to JSX have been discussed through the react community. The most popular of them is a shorthand to pass props that have the same name as the variable.
-
-<br />
-
-So instead of writing:
+1. On the JSX, we can't do statements (for, if/else, while, etc), but with an IIFE, it's kinda possible
 
 ```jsx
-const a = 10;
-<Example a={a}>
+const Example = () => {
+return <>{(() => {
+if (2 + 2 ==== 4) {
+  return <p>four</p>
+} else 
+  return <p>2</p>
+})()}</>
 ```
+
+2. 
 
 You would just do:
 

@@ -1,12 +1,10 @@
-# Astro Starter Kit: Blog
+#### A self made collection of meaningful chunks of thoughts by someone who absorbs a lot through extensive deliberate practice, conversations, code and books. It's expressed through text. You can also call it just a blog.
 
 ```
 npm init astro -- --template blog
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 Features:
 

@@ -14,10 +14,10 @@ export default function Articles(props: { allPosts: any }) {
           }}
           value={query()}
           type="text"
-          class="py-2 rounded bg-[#373764] px-3"
+          class="py-2 rounded bg-transparent border border-gray-600 px-3"
         />
       </label>
-      <section aria-label="Blog post list">
+      <section class="flex flex-col gap-10" aria-label="Blog post list">
         {props.allPosts
           .filter((post) => {
             const title = post.frontmatter.title.toLowerCase();

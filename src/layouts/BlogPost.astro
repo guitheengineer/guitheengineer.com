@@ -90,11 +90,16 @@ const { title, description, author, permalink } = content;
 			url('/assets/fonts/inter/inter-v11-latin-600.woff') format('woff');
 	}
 
+	.divider {
+		margin: theme('spacing.3') 0;
+	}
+
 	ol {
 		counter-reset: points;
+		margin: theme('spacing.8') 0;
 
 		li {
-			margin: theme('spacing.3') 0;
+			margin: theme('spacing.5') 0;
 			position: relative;
 			padding-left: theme('spacing.5');
 
@@ -125,7 +130,7 @@ const { title, description, author, permalink } = content;
 	/* Typography */
 	:is(h1, h2, h3, h4, h5, h6) {
 		margin-bottom: 1.2rem;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 1.3;
 	}
 

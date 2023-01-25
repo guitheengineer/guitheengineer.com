@@ -5,7 +5,7 @@ publishDate: 24 Jan 2023
 name: Guilherme Samuel
 value: 128
 description: It's incredibly boring having to do a gh auth login every time you want to use a different account. We're going to learn how to solve that once for all.
-keywords: ['github', 'gh', 'cli']
+keywords: ['github', 'gh', 'githubcli', 'ghcli']
 ---
 
 It's incredibly boring having to do a gh auth login every time you want to use a different account. Today we're going to learn how to solve that by using an extension which allows us to create multiple profiles and switch between them based on the current directory. To do so, the steps are really simple:

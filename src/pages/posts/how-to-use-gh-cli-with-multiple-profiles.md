@@ -20,7 +20,7 @@ It's incredibly boring having to do a gh auth login every time you want to use a
 `gh auth login`
 
 
-Now, you have created a profile with an associated github account. You can create other ones too by following the same steps above.    
+Now, you have created a profile with an associated github account. You can create other ones too by following the following the steps 2 and 3 above.    
 
 <div class="divider"></div>
 

@@ -27,6 +27,7 @@ const { title, description, author, permalink } = content;
 </html>
 
 <style lang="scss" is:global>
+	
 	:root {
 		--color-white: #fff;
 		--color-black: #000014;
@@ -90,8 +91,12 @@ const { title, description, author, permalink } = content;
 			url('/assets/fonts/inter/inter-v11-latin-600.woff') format('woff');
 	}
 
+	html {
+		background-color: #000014;
+	}
+
 	.divider {
-		margin: theme('spacing.3') 0;
+		margin: theme('spacing.5') 0;
 	}
 
 	ol {
@@ -158,7 +163,7 @@ const { title, description, author, permalink } = content;
 		font-size: clamp(1.2rem, 1.15rem + 0.125vw, 1.25rem);
 	}
 
-	p {
+	p, li {
 		color: var(--theme-text-light);
 	}
 
@@ -260,18 +265,30 @@ const { title, description, author, permalink } = content;
 		display: flex;
 		flex-direction: column;
 
-		padding: var(--padding-block) var(--padding-inline);
+		padding: 0 var(--padding-inline);
+		margin-top: 48px;
+		margin-bottom: 48px;
 		margin-left: calc(var(--padding-inline) * -1);
 		margin-right: calc(var(--padding-inline) * -1);
 
 		background: transparent;
-		border-left: calc(var(--padding-inline) / 2) solid var(--color);
+		border-left: calc(var(--padding-inline) / 5) solid var(--color);
 		border-radius: 0;
+
+		p {
+			font-size: 14px;
+		}
 	}
 
 	blockquote .source {
 		font-weight: 500;
 		color: var(--color);
 		font-size: 1rem;
+	}
+
+	.twitter-tweet {
+		max-width: 400px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
 	}
 </style>

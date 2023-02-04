@@ -5,7 +5,7 @@ export default function BlogPostPreview({ post }: { post: any }) {
         <header class="flex flex-col items-start text-left">
           {/* <p class="text-sm mb-1">{post.frontmatter.publishDate}</p> */}
 
-          <h1 class="text-4xl font-bold">{post.frontmatter.title}</h1>
+          <h1 class="text-4xl font-bold -mb-1">{post.frontmatter.title}</h1>
         </header>
         <p>{post.frontmatter.description}</p>
       </article>

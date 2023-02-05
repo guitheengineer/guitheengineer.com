@@ -21,6 +21,6 @@ Technologies were created to solve specific problems, your Astro blog project wa
 Your zustand store worked very well for managing your theme. It doesn't mean you should also use it for on your new event managing app with large amounts of state that will have some complex logic to update it (redux, yes, may be a more appropriate option) 
 
 There's no silver bullet in our field. 
-(except Tailwind, use it everywhere you can because is that good :kappa:)
+(except Tailwind, use it everywhere you can because is that good /s)
 
 > Disclaimer: It's important to say that stack choices aren't always made seeking the most appropriate tech stack for the project, but it's also a combination of other factors (for example you have to consider your team skills as well)

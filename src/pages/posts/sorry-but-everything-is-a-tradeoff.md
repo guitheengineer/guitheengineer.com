@@ -5,7 +5,6 @@ publishDate: 5 Feb 2023
 name: Guilherme Samuel
 value: 128
 description: Thoughts seeking opening your mind towards a less biased, more rational approach to software development.
-draft: true
 keywords: ['react', '']
 ---
 

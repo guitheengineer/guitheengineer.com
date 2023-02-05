@@ -5,7 +5,7 @@ publishDate: 5 Feb 2023
 name: Guilherme Samuel
 value: 128
 description: Thoughts seeking opening your mind towards a less biased, more rational approach to software development.
-keywords: ['react', '']
+keywords: ['react', 'zustand', 'redux', 'astro', 'architecture', 'stack']
 ---
 
 You just used a library, it's now your favorite one, it worked well for that project.
@@ -23,4 +23,4 @@ Your zustand store worked very well for managing your theme. It doesn't mean you
 There's no silver bullet in our field. 
 (except Tailwind, use it everywhere you can because is that good :kappa:)
 
-> Disclaimer: It's important to say that stack choices aren't always made seeking the most appropriate tech stack for the project, but it also considers your team skills.
+> Disclaimer: It's important to say that stack choices aren't always made seeking the most appropriate tech stack for the project, but it's also a combination of other factors (for example you have to consider your team skills as well)

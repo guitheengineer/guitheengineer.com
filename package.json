@@ -9,10 +9,13 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/solid-js": "^0.1.4",
-    "@astrojs/tailwind": "^0.2.1",
-    "astro": "^1.0.0",
+    "@astrojs/solid-js": "^2.0.2",
+    "@astrojs/tailwind": "^3.0.1",
+    "astro": "^2.0.10",
     "sass": "^1.52.3",
     "solid-js": "^1.4.4"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^3.1.1"
   }
 }

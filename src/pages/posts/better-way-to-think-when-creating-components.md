@@ -4,7 +4,7 @@ title: Better way to think when creating components
 publishDate: 11 Feb 2023
 name: Guilherme Samuel
 value: 128
-description: Better way to think when creating components (small front end tip \#1)
+description: This advice will unblock you and avoid future pitfalls when building your components.
 keywords: ['react', 'javascript', 'typescript']
 ---
 

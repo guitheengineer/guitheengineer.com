@@ -20,7 +20,7 @@ The first unexpected moment was in interviews, being asked to describe what I ha
 Being able to communicate and express myself clearly was just as important as my technical skills. If I knew this from the beginning, I would practice it more, potentially making it easier to climb the promotion ladder, because the far you go there, the more important it is.
 
 
-##### It can be exhaustive.
+##### It can be exhausting.
 I never thought that by doing what I liked and earning some cash along the way, I could get mentally exhausted. I wasn't aware I would encounter crazy deadlines, unnecessary arguments, finger-pointing, excessive extra work hours, constant everyday pressure, undervaluation, chronic stress, and consequentially, burnout.    
 
 It happens, a lot. If I had known about it earlier I would say no to a lot of things, giving myself more room to breathe when needed.

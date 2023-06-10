@@ -22,12 +22,7 @@ A few days later, you're at another meeting. You have a question that sounds stu
 
 This behavior leeds to a very bad habit within the team. The team will carry their questions to the grave and remain them unanswered, which can lead to huge knowledge gaps.
 
-2. At another meeting, you make a suggestion that you believe is a clear improvement. It may not be that good of an improvement because you don't have the whole context yet, but anyways your boss laughs at the suggestion and immediately rejects it.
-
-At another day, you actually have an idea that's really good, but you don't say it because you're afraid that your boss is going to laugh at it.
-
-
-This behavior leeds to a very bad habit within the team. The team will carry their suggestions which may be good sometimes to the grave and remain them hidden, which can lead to missing some solid improvements.
+The same happens to suggestions that you believe is a clear improvement. It may not be that good of an improvement because you don't have the whole context yet, but if your boss dismisses it roughly they will make you afraid to suggest things, even the ones that are really good, missing some solid improvements.
 
     Mental Security Drives Productivity
 

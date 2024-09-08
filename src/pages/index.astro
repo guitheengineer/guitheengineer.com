@@ -4,9 +4,9 @@ import Header from '../components/Header.astro';
 import Body from '../components/Body.astro';
 import Articles from '../components/Articles.tsx'
 
-let title = "Guilhermefront's blog";
+let title = "guitheengineer's blog";
 let description = 'A front end blog';
-let permalink = 'https://www.guilhermefront.com';
+let permalink = 'https://www.guitheengineer.com';
 let allPosts = await Astro.glob('./posts/**/*.md');
 allPosts = allPosts.filter(({ frontmatter }) => frontmatter.draft !== true).sort(
   (a, b) =>
